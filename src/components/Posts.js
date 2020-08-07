@@ -11,7 +11,6 @@ const Posts = ({ syncPosts })  =>{
 };
 
 const mapStateToProps = state => {
-  console.log('state = ',state);
   return {
     syncPosts: state.posts.posts
   };
